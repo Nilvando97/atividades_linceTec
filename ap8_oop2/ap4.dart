@@ -18,6 +18,6 @@ void main() {
   // Calculando o dobro do número aleatório
   int resultado = Calculadora.dobro(numeroAleatorio);
 
-  // Exibindo o resultado no console
+  /// Exibindo o resultado no console
   print('O dobro do número $numeroAleatorio é: $resultado');
 }
