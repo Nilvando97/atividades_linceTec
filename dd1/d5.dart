@@ -50,9 +50,11 @@ void main() {
     'Lopes',
     'Barbosa'
   ];
-
+  // Gera um índice aleatório para selecionar um nome da lista de nomes
   String nomeAleatorio = nomes[Random().nextInt(nomes.length)];
+  // Gera um índice aleatório para selecionar um sobrenome da lista de sobrenomes
   String sobrenomeAleatorio = sobreNomes[Random().nextInt(sobreNomes.length)];
 
+  // Exibe o nome completo gerado no console
   print('Nome: $nomeAleatorio $sobrenomeAleatorio');
 }
